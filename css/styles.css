@@ -90,4 +90,39 @@ nav{
 
 
 }
+.my-services{
+    background-color: #95A5A6 ;
+    background-image:url(../images/services-bg.jpg);
+    background-size:cover;
+    color: #fff;
+    text-align: center;
+}
+.section__title--services{
+    color: rgb(244, 255, 196);
+    position: relative;
+}
+.section__title--services::after{
+    content:"" ;
+    display: block;
+    width: 3em;
+    height: 1px;
+    margin: 0.2em auto;
+    background: currentColor;
+    opacity: 0.25;
+}
+.service{
+    max-width: 500px;
+    margin: auto;
+
+}
+@media (min-width:800px){
+    .services{
+        display: flex;
+        max-width: 100px;
+        margin: 0 auto;
+    }
+    .service + .service{
+        margin-left: 2em;
+    }
+}
     
