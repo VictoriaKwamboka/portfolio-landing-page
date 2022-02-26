@@ -1,81 +1,69 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-/*custom properties*/
-
-:root {
-    --ff-primary: sans-serif;
-    --ff-secondary: monospace;
-
-    --fw-reg: 300;
-    --fw-bold: 900;
-
-    --clr-light: #fff;
-    --clr-dark: #303030 --clr-decent: #16e0bd --fs-h1:3rem;
-    --fs-h2: 2.25rem;
-    --fs-h3: 1.25rem;
-    --fs-body: 1rem;
-
-}
-
-@media (min-width: 800px) {
-    :root {
-        --fs-h1: 4.5rem;
-        --fs: h2: 3.75rem;
-        --fs-h3: 1.5rem;
-        --fs-body: 1.125rem;
-    }
-}
-
-/*general styles*/
-
-body {
-    background: #fff;
-    color: #303030;
+h1,
+h2,
+h3 {
+    line-height: 1.1;
     margin: 0;
-    font-family: monospace;
-    font-size: 1.125rem;
-    line-height: 1.5;
+}
 
-    img{
-        display: block;
-        max-width:100%
+h1 {
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 3.75rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+section{
+    padding: 5em 2em;
+}
+
+.section-title {
+    margin-bottom: .25em;
+
+}
+
+.section__title--intro {
+    font-weight: 300;
+}
+.section__title--intro strong{
+    display: block;
+
+}
+
+.section__subtitle {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.section__subtitle--intro,
+.section__subtitle--about {
+    background: rgb(0, 255, 234);
+    font-family: sans-serif;
+    margin-bottom: 1em;
+
+}
+nav{
+    display: none;
+}
+/*Intro*/
+.intro{
+    position: relative;
+}
+@media (min-width: 600px){
+    .intro{
+        display: grid;
+        grid-column-gap:1em;
+        grid-template-areas: "img title" "img subtitle";
+        grid-template-columns: min-content max-content;
+    }
+    .intro__img{
+        grid-area: img;
+        min-width: 250px;
     }
 
-    /*typography*/
 
-    h1,
-    h2,
-    h3{
-        line-height: 1.1;
-        margin: 0;
-    }
-    h1{
-        font-size: 4.5rem;
-    }
-    h2{
-        font-size: 3.75rem;
-    }
-    h1{
-        font-size: 1.5rem;
-    }
-    .section-title{
-        margin-bottom: .25em;
-
-    }
-    .section-subtitle--intro{
-        font-weight: 300;
-    }
-    .section-subtitle{
-        margin: 0;
-        font-size:1.5rem; 
-    }
-   .section-subtitle--intro,
-   .section-subtitle--about{
-       background:rgb(0, 255, 234);
-       font-family: sans-serif;
-
-   }
+}
+    
