@@ -152,17 +152,27 @@ nav{
 .service{
     max-width: 500px;
     margin: auto;
+    
 
 }
 @media (min-width:800px){
     .services{
         display: flex;
-        max-width: 100px;
+        max-width: 1000px;
         margin-left:auto;
         margin-right: auto;
+        width:100%;
+        
+        
+    }
+    .service{
+        width: calc(100%/3);
+        
     }
     .service + .service{
         margin-left: 2em;
+        
+        
     }
 }
 /*About Me*/
