@@ -1,7 +1,8 @@
+
 <h1 align="center">Hi 👋 there, I'm Victoria Kwamboka</h1>
 <h3 align="center">An aspiring Back-End Developer.</h3>
 
-<p align="left"> <a href="https://twitter.com/vickycancode" target="blank"><img src="https://img.shields.io/twitter/follow/vickycancode?logo=twitter&style=for-the-badge" alt="vickycancode" /></a> </p>
+<p align="left"> <a href="https://twitter.com/codingvictoria" target="blank"><img src="https://img.shields.io/twitter/follow/codingvictoria?logo=twitter&style=for-the-badge" alt="codingvictoria" /></a> </p>
 
 - 🔭 I’m currently working on this [Bootstrap project](https://github.com/VictoriaKwamboka/bootstrap-practice)
 
