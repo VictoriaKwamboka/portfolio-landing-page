@@ -22,7 +22,8 @@ This project is all about my portfolio as a aspiring backend developer. It conta
 ### Set up Instructions and Contribution
 <ul>
   <li> Clone or fork this repository.<li>
-  <li> Add your code or comment on the existing code<li>
+  <li> Add your code or comment on the existing code
+  <li> Open an issue to help me understand what changes you'd like to make
   <li> Create a pull request<li>
 
 
