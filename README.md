@@ -1,4 +1,3 @@
-<img src= "assets/images/mine.jpeg" alt="">
 <h1 align="center">Hi 👋 there, I'm Victoria Kwamboka</h1>
 <h3 align="center">An aspiring Back-End Developer.</h3>
 
@@ -21,10 +20,11 @@ This project is all about my portfolio as a aspiring backend developer. It conta
 
 ### Set up Instructions and Contribution
 <ul>
-  <li> Clone or fork this repository.<li>
+  <li> Clone or fork this repository.
   <li> Add your code or comment on the existing code
   <li> Open an issue to help me understand what changes you'd like to make
   <li> Create a pull request<li>
+ <ul>
 
 
 <h3 align="left">Connect with me:</h3>
