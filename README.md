@@ -17,7 +17,7 @@
 
 ## Portfolio Landing Page
 This project is all about my portfolio as a aspiring backend developer. It contains a few links to my current active projects.
-**Link** https://victoriakwamboka.github.io/portfolio-landing-page/
+
 
 ## Set up Instructions and Contribution
 This project is open source and your contribution is highly welcome by following these steps:
