@@ -1,4 +1,4 @@
-
+<img src= "assets/images/mine.jpeg" alt="">
 <h1 align="center">Hi 👋 there, I'm Victoria Kwamboka</h1>
 <h3 align="center">An aspiring Back-End Developer.</h3>
 
@@ -16,9 +16,15 @@
 
 - 📫 How to reach me **victoria.kwamboka@student.moringaschool.com**
 
-### Blogs posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+## Portfolio Landing Page
+This project is all about my portfolio as a aspiring backend developer. It contains a few links to my current active projects.
+
+### Set up Instructions and Contribution
+<ul>
+  <li> Clone or fork this repository.<li>
+  <li> Add your code or comment on the existing code<li>
+  <li> Create a pull request<li>
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
